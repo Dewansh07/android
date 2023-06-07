@@ -86,11 +86,16 @@ const Home = (props) => {
           <span className="home-text02">
             <span>Hey, Enter your details and dive into the Android Club</span>
           </span>
+          <div>
+          
           <img
             src="/external/rectangle43317-vty-200h.png"
             alt="Rectangle43317"
             className="home-rectangle43 input"
+            
           />
+          
+          </div>
           <img
             src="/external/rectangle44318-c177-200h.png"
             alt="Rectangle44318"
@@ -105,8 +110,10 @@ const Home = (props) => {
           </button>
           
           <span className="home-text04">
+
+            <input type="text" className='home-input01' placeholder='Enter Email' />
             <span>
-              Enter email
+
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -115,7 +122,8 @@ const Home = (props) => {
             </span>
           </span>
           <span className="home-text06">
-            <span>password (at least 8 character)</span>
+            <input type="text" className='home-input-02' placeholder='Password (at least 8 character)' />
+            
           </span>
           <span className="home-text08">
             <span>LOGIN</span>
