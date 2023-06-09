@@ -106,7 +106,9 @@ const Home = (props) => {
             className="home-rectangle45 button"
             onClick={handleLogin}
           >
-            <span>LOGIN</span>
+            
+            <img className="home-rectangle69" src="/external/rectangle45319-6zq9-200h.png"  />
+            <span className= "home-text007">Login</span>
           </button>
           
           <span className="home-text04">
